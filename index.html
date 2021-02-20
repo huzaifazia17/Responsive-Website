@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is where You put text for search engine optimization| text that appera in a google search">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <title>Website Title</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
-            <header>
+            <header >
                 <nav >
                     <div class="row">
                         <a href ="#">
                             <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
                             <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                         </a>
-                        <ul class="main-nav">
-                            <li><a href="#">Food Delivery</a></li>
-                            <li><a href="#">How it Works</a></li>
-                            <li><a href="#">Our Cities</a></li>
-                            <li><a href="#">Sign Up</a></li>
+                        <ul class="main-nav js--main-nav">
+                            <li><a href="#features">Food Delivery</a></li>
+                            <li><a href="#works">How it Works</a></li>
+                            <li><a href="#cities">Our Cities</a></li>
+                            <li><a href="#plans">Sign Up</a></li>
                         </ul>
+                        <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu-outline" class="i"></ion-icon></a>
+                        <a class="mobile-nav-icon js--nav-icon"><ion-icon name="close-outline" class="p"></ion-icon></a>
                     </div>
                 </nav>
                 <div class="hero-text-box">
@@ -33,14 +48,14 @@
                 </div>
             </header>
 
-            <section class="section-features js--section-features">
+            <section class="section-features js--section-features" id="features">
                 <div class="row">
                     <h2>Get food fast &mdash; not fast food.</h2>
                     <p class="long-copy">
                         Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
                     </p>
                 </div>
-                <div class="row">
+                <div class="row js--wp-1">
                     <div class="col span-1-of-4 box">
                         <ion-icon name="infinite-outline" class="icon-big"></ion-icon>
                         <h3>Up to 365 days/year</h3>
@@ -117,13 +132,13 @@
                     </li>
                 </ul>
             </section>
-            <section class="section-steps">
+            <section class="section-steps" id="works">
                 <div class="row">
                     <h2>How it works &mdash; Simple 1, 2, 3</h2>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-2 steps-box">
-                        <img src="resources/img/app-iPhone.png" alt="iphone image" class="app-screen">
+                        <img src="resources/img/app-iPhone.png" alt="iphone image" class="app-screen js--wp-2">
                     </div>
                     <div class="col span-1-of-2 steps-box">
                         <div class="works-step">
@@ -143,11 +158,11 @@
                     </div>
                 </div>
             </section>
-            <section class="section-cities">
+            <section class="section-cities" id="cities">
                 <div class="row">
                     <h2> We're currently in these cities</h2>
                 </div>
-                <div class="row">
+                <div class="row js--wp-3">
                     <div class="col span-1-of-4 box">
                         <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                         <h3>Lisbon</h3>
@@ -240,13 +255,13 @@
                         </div>
                     </div>
             </section>
-            <section class="section-plans js--section-plans">
+            <section class="section-plans js--section-plans" id="plans">
                 <div class="row">
                     <h2>Start eating healthy today</h2>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-3">
-                        <div class="plan-box">
+                        <div class="plan-box js--wp-4">
                             <div>
                                 <h3>Premium</h3>
                                 <p class="plan-price">$399<span>/ month</span> </p>
