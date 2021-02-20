@@ -1,13 +1,5 @@
-$(document).ready(function() { /* Jquery code must start like this*/
+$(document).ready(function() { 
 
-    /*$('h1').click(function(){
-        $(this).css('background-color', '#ff0000')  /* This -- indicates the previous function so in this case h1 || inside css we can change any css property on click*/
-
-        /*var waypoints = $('#handler-first').waypoint(function(direction) {
-            notify(this.element.id + ' hit 25% from top of window') 
-          }, {
-            offset: '25%'
-          })*/
           /* For sticky navigation*/
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
